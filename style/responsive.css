@@ -1,9 +1,15 @@
 /* Small device: up to 576 px */
 
 @media screen and (max-width: 576px){
-
-
-
+.center-nav,.right-nav{
+    display: none;
+}
+#bar-icon{
+    display: block;
+}
+.nav-container{
+    padding: 16px 20px 0px 20px;
+}
 
 
 }
