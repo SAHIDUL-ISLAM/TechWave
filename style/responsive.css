@@ -11,13 +11,13 @@
     padding: 16px 20px 0px 20px;
 }
 
-.hero-container {
-    background: url(../assets/hero-circle.png) center 70px, url(../assets/hero-bg.png) center;
-    background-size: 260px, cover;
-    background-repeat: no-repeat;
-}
+    .hero-container {
+        background: url(../assets/hero-circle.png) center 89px, url(../assets/hero-bg.png) center 130px;
+        background-size: 273px, 566px;
+        background-repeat: no-repeat;
+    }
 .hero-content {
-    padding-top: 78px;
+    padding-top: 0px;
 }
 .hero-content h1 {
     font-size: 2.5rem;

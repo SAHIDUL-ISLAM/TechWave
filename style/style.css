@@ -70,10 +70,11 @@ body{
 
 /* hero section  */
 .hero-container{
-    background:url("../assets/hero-circle.png") center,
-url("../assets/hero-bg.png");
-    background-size: 300px, cover;
+    background:url("../assets/hero-circle.png") center 73px,
+url("../assets/hero-bg.png") center;
+    background-size: 335px, cover;
     background-repeat: no-repeat;
+    padding-top: 120px;
 }
 .hero-content{
     text-align: center;
@@ -81,7 +82,7 @@ url("../assets/hero-bg.png");
     height: 558px;
     margin: 0px auto;
     position: relative;
-    padding-top: 150px;
+    /* padding-top: 150px; */
     position: relative;
 }
 .tooltip{
@@ -90,7 +91,8 @@ url("../assets/hero-bg.png");
     color: black;
     text-align: center;
     background-color: #00FF88;
-    right: 24%;
+    right: 22%;
+    top: -4;
     padding: 8px 16px;
     font-size: 1.25;
     font-weight: 400;
