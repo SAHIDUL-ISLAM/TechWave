@@ -69,8 +69,17 @@
     border-radius: 24px;
 }
 
-
-
+.feature-section {
+  padding: 40px 0px;
+}
+.feature-section > h1 {
+  font-size: 2rem;
+}
+.feature-card {
+  margin-top: 24px;
+  grid-template-columns: repeat(1,1fr);
+  gap: 16px;
+}
 
 
 
