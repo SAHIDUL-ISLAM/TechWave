@@ -181,3 +181,57 @@ url("../assets/hero-bg.png") center;
     margin-top: 16px;
     text-transform: uppercase;
 }
+
+/* choose section  */
+.choose-section{
+   background-color: rgba(53, 17, 101, 0.4);
+}
+.choose-container{
+    padding: 120px 0px;
+}
+.choose-container>h1{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+.choose-feature-card>*{
+    background-color: rgba(53, 17, 101, 0.4);
+    padding: 40px;
+    border-radius: 40px;
+}
+.choose-feature-card h3{
+    padding: 16px 0px;
+}
+.choose-feature-card p{
+    line-height: 24px;
+}
+.audio-quality{
+    grid-area: audio-quality;
+}
+.mobile-friendly{
+    grid-area: mobile-friendly;
+}
+.global-comm{
+    grid-area: global-comm;
+}
+.interview{
+    grid-area: interview;
+}
+.resource{
+    grid-area: resource;
+}
+.choose-feature-card{
+    display: grid;
+    gap: 30px;
+    grid-template-areas: 
+    "audio-quality  mobile-friendly mobile-friendly     mobile-friendly     mobile-friendly"
+    "audio-quality  global-comm     global-comm     global-comm     global-comm"
+    "interview      interview       interview    interview  resource "
+    ;
+}
+
+.audio-quality{
+    display: flex;
+    align-items: center;
+}
