@@ -202,6 +202,8 @@ url("../assets/hero-bg.png") center;
 }
 .choose-feature-card h3{
     padding: 16px 0px;
+    font-size: 24px;
+    font-weight: 600;
 }
 .choose-feature-card p{
     line-height: 24px;
