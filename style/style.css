@@ -153,6 +153,31 @@ url("../assets/hero-bg.png") center;
     border: none;
 }
 
-
-
-
+/* about section  */
+.main-section{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 120px;
+}
+.about-section>h1{
+    font-size: 3rem;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+.about-section>p{
+    margin-bottom: 80px;
+    line-height: 20px;
+}
+.statistics-items{
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
+.statistics-items>.box>h1,.fa-star{
+    color: #00FF88;
+    font-size: 3rem;
+}
+.statistics-items>.box>p{
+    margin-top: 16px;
+    text-transform: uppercase;
+}
