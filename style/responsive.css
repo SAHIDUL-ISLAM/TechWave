@@ -1,6 +1,9 @@
 /* Small device: up to 576 px */
 
 @media screen and (max-width: 576px){
+.section-padding {
+    padding: 0px 20px;
+}
 .center-nav,.right-nav{
     display: none;
 }
@@ -11,17 +14,40 @@
     padding: 16px 20px 0px 20px;
 }
 
-    .hero-container {
-        background: url(../assets/hero-circle.png) center 89px, url(../assets/hero-bg.png) center 130px;
-        background-size: 273px, 566px;
-        background-repeat: no-repeat;
-    }
+.hero-container {
+    background: url(../assets/hero-circle.png) center 89px, url(../assets/hero-bg.png) center 130px;
+    background-size: 273px, 566px;
+    background-repeat: no-repeat;
+}
 .hero-content {
-    padding-top: 0px;
+    height: 430px;
 }
 .hero-content h1 {
     font-size: 2.5rem;
     margin-top: 68px;
 }
+.about-section{
+    padding-top: 0px;
+
+}
+.about-section>h1 {
+    font-size: 2rem;
+}
+.about-section>p {
+    margin-bottom: 40px;
+}
+.statistics-items {
+    margin-top: 40px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+}
+.statistics-items>.box>h1, .fa-star {
+    font-size: 2.5rem;
+}
+.main-section {
+    margin-bottom: 40px;
+}
+
+
 
 }
