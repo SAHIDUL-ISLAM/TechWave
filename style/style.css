@@ -237,3 +237,46 @@ url("../assets/hero-bg.png") center;
     display: flex;
     align-items: center;
 }
+
+/* feature section  */
+.feature-section{
+    padding: 120px 0px;
+}
+.feature-section>h1{
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+}
+.feature-card{
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+}
+iframe{
+    border-radius: 24px 24px 0px 0px;
+}
+.feature-card-item{
+    background-color: rgba(37, 13, 68, 1);
+    border-radius: 24px;
+}
+.video-title-des{
+    padding: 24px;
+}
+iframe{
+    width: 100%;
+    border: none;
+}
+.video-title-des>h3{
+    font-size: 1.25rem;
+}
+.video-title-des>p{
+    margin: 12px 0px;
+    line-height: 24px;
+}
+.video-title-des>.time{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    color: #00FF88;
+}
