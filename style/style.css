@@ -319,3 +319,36 @@ iframe{
     padding: 12px;
     border-radius: 50%;
 }
+
+/* footer section  */
+footer{
+    background-image: url("../assets/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+.footer-container{
+    text-align: center;
+    padding: 120px;
+}
+.footer-container> h1{
+    font-size: 3.75rem;
+}
+.footer-container> h1 > span {
+  background: linear-gradient(to bottom, #9100F8, #FB09B4,#F7E93F);
+    background-clip: border-box;
+  background-clip: text;
+  color: transparent;
+}
+.brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    margin: 32px 0px;
+}
+.brand-img{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
