@@ -62,6 +62,13 @@ body p{
 }
 .right-nav>button:hover{
     background-image: linear-gradient(to right,#9100F8,#FB09B4,#F7E93F);
+    transform: scale(1.2);
+}
+.fa-arrow-right{
+    transition: transform 1s;
+
+}
+.right-nav>button:hover .fa-arrow-right{
     transform: scale(1.2) rotate(360deg);
 }
 
@@ -121,7 +128,7 @@ url("../assets/hero-bg.png") center;
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 8px;
+    gap: 12px;
 }
 .hero-btn>.left-btn{
     color: white;
@@ -134,6 +141,7 @@ url("../assets/hero-bg.png") center;
     display: flex;
     align-items: center;
     gap: 8px;
+    transition: transform 1s;
 }
 .hero-btn>.left-btn:hover{
     transform: scale(1.1);
@@ -149,12 +157,16 @@ url("../assets/hero-bg.png") center;
     display: flex;
     align-items: center;
     gap: 8px;
+    transition: transform 1s;
+
 }
 .hero-btn>.right-btn:hover{
     transform: scale(1.1);
     background-image: linear-gradient(to left,#9100F8,#FB09B4,#F7E93F);
     color: white;
     border: none;
+    transform: scale(1.1);
+
 }
 
 /* about section  */
