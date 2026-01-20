@@ -14,7 +14,8 @@ body{
     color: #FFFFFF;
 }
 .section-padding{
-    padding: 0px 200px;
+    max-width: 1200px;
+    margin: auto;
 }
 body p{
     opacity: 60%;
@@ -39,6 +40,7 @@ body p{
 .center-nav ul>li>a{
     text-decoration: none;
     color: #FFFFFF;
+    opacity: 60%;
 }
 .center-nav ul>li>a:hover{
     color: #FB09B4;
@@ -268,6 +270,7 @@ iframe{
 iframe{
     width: 100%;
     border: none;
+    height: 225px;
 }
 .video-title-des>h3{
     font-size: 1.25rem;
@@ -282,6 +285,7 @@ iframe{
     gap: 4px;
     color: #00FF88;
 }
+
 
 /* host section  */
 .host-section{
