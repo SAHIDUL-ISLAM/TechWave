@@ -330,11 +330,16 @@ footer{
 .footer-container{
     text-align: center;
     padding: 120px;
+    display: flex;
+    justify-content: center;
 }
-.footer-container> h1{
+/* .footer-main{
+
+} */
+.tech-w{
     font-size: 3.75rem;
 }
-.footer-container> h1 > span {
+.tech-w > span {
   background: linear-gradient(to bottom, #9100F8, #FB09B4,#F7E93F);
     background-clip: border-box;
   background-clip: text;
@@ -345,7 +350,8 @@ footer{
     justify-content: center;
     align-items: center;
     gap: 40px;
-    margin: 32px 0px;
+    padding: 32px 0px;
+    margin-top: -14px;
 }
 .brand-img{
     display: flex;

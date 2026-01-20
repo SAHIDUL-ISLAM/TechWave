@@ -98,6 +98,23 @@
 .social-icon {
     justify-content: center;
 }
+.host-section {
+    padding-bottom: 40px;
+}
+.footer-container {
+    padding: 40px;
+}
+.tech-w {
+    font-size: 2rem;
+}
+.brand {
+    flex-wrap: wrap;
+    gap: 24px;
+    margin: 0px 15px;
+}
+footer {
+    background-size: cover;
+}
 
 
 
