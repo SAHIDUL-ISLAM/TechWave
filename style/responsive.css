@@ -116,6 +116,37 @@ footer {
     background-size: cover;
 }
 
+}
 
+
+/* responsive for 576 to 992  */
+@media screen and (min-width: 576px) and (max-width: 992px){
+.section-padding{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.main-section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.choose-feature-card > * {
+    padding: 20px;
+    border-radius: 18px;
+}
+.feature-card {
+    grid-template-columns: repeat(2,1fr);
+}
+.choose-feature-card {
+    gap: 10px;
+}
+.statistics-items > .box > h1, .fa-star {
+    font-size: 2.75rem;
+}
+footer {
+    background-size: 1000px;
+}
+.footer-container {
+    padding: 50px;
+}
 
 }
